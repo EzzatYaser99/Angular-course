@@ -5,18 +5,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  fName: String = "Ezzat";
-  lName: String = "yaser";
-  result:boolean=false;
-age:number=20;
-  constructor() {
-
-    setTimeout(()=>{this.result=true},5000)
+  mytext:String = " A simple primary alert—check it out!";
+  doTask(){
+    console.log("ok")
+    this.mytext="hi Ezzat"
 
   }
-  getAge(){
 
-     return this.age;
-  }
+
+
 
 }
