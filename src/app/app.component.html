@@ -1,5 +1,8 @@
-
-<div class="alert alert-primary" role="alert">
-  {{mytext}}
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">@</span>
+  <input [(ngModel)]="myText"  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
 </div>
-<button (click)="doTask()" type="button" class="btn btn-primary">Done</button>
+<div class="alert alert-primary mt-5" role="alert">
+  {{myText}}
+</div>
+

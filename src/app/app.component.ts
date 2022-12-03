@@ -5,14 +5,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  mytext:String = " A simple primary alert—check it out!";
-  doTask(){
-    console.log("ok")
-    this.mytext="hi Ezzat"
-
-  }
-
-
-
+  myText:String = " My Content Input";
 
 }
